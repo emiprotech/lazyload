@@ -5,18 +5,17 @@
     "license": ["OSL-3.0"],
     "repositories": [
         {
+            "lazyload": {
             "url": "https://github.com/emiprotech/lazyload.git",
             "type": "git"
+            }
         }
+        
     ],
     "version": "1.0.0",
     "require": {
         "php": "^7.0"
     },
-    "require-dev": {
-        "emipro/lazyload": "1.0.0"
-    },
-    "minimum-stability": "stable",
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
