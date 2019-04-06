@@ -3,9 +3,10 @@
     "description": "Emipro lazyload for Magento 2",
     "type": "magento2-module",
     "license": ["OSL-3.0"],
+    "minimum-stability": "stable",
     "repositories": [
         {
-            "lazyload": {
+         "lazyload": {
             "url": "https://github.com/emiprotech/lazyload.git",
             "type": "git"
             }
