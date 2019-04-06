@@ -9,8 +9,12 @@
             "type": "git"
         }
     ],
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.0"
+    },
     "require-dev": {
-        "emipro/lazyload": "dev-master"
+        
     },
     "minimum-stability": "stable",
     "autoload": {
